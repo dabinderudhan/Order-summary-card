@@ -1,0 +1,88 @@
+.container {
+  border-radius: 10px;
+  background-color: $color-white;
+  text-align: center;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.05);
+
+  & .hero-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.order {
+  padding: 1.5rem;
+
+  &-header {
+    color: $color-neutral-Darkblue;
+    font-weight: 900;
+    font-size: 24px;
+  }
+
+  &-text {
+    line-height: 1.6;
+    padding-inline: 0.8rem;
+    font-size: 15px;
+  }
+
+  &-ratebox {
+    background-color: $color-neutral-Verypaleblue;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: start;
+    gap: 1.5rem;
+    font-size: 14px;
+
+    &--plan {
+      gap: 0.3rem;
+
+      &_item {
+        font-weight: 900;
+        color: $color-neutral-Darkblue;
+      }
+    }
+
+    &--change {
+      flex: 1;
+      text-align: right;
+      color: $color-primary-Brightblue;
+      font-weight: 700;
+      font-size: 13px;
+
+      &:hover {
+        color: hsla(245, 75%, 52%, 0.7);
+      }
+    }
+  }
+
+  &-paymentbtn {
+    width: 100%;
+    background-color: $color-primary-Brightblue;
+    outline: none;
+    border: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    color: $color-white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.7rem;
+
+    &:hover {
+      background-color: hsla(245, 75%, 52%, 0.7);
+    }
+  }
+
+  &-cancel {
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-neutral-Darkblue;
+      font-weight: 900;
+    }
+  }
+}
