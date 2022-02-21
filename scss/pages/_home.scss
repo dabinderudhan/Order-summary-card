@@ -16,13 +16,13 @@
   &-header {
     color: $color-neutral-Darkblue;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   &-text {
     line-height: 1.6;
     padding-inline: 0.8rem;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   &-ratebox {
@@ -32,7 +32,7 @@
     width: 100%;
     justify-content: start;
     gap: 1.5rem;
-    font-size: 14px;
+    font-size: 0.875rem;
 
     &--plan {
       gap: 0.3rem;
@@ -48,7 +48,7 @@
       text-align: right;
       color: $color-primary-Brightblue;
       font-weight: 700;
-      font-size: 13px;
+      font-size: 0.8125rem;
 
       &:hover {
         color: hsla(245, 75%, 52%, 0.7);
@@ -64,6 +64,7 @@
     padding: 1rem;
     border-radius: 10px;
     color: $color-white;
+    font-family: $ff-main;
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
@@ -77,8 +78,10 @@
 
   &-cancel {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     cursor: pointer;
+    text-decoration: none;
+    color: $color-neutral-Desaturatedblue;
 
     &:hover {
       color: $color-neutral-Darkblue;
